@@ -33,14 +33,9 @@ To evaluate our model on the hidden test set, please run the notebook:
 ```
 ai_detection_test_set.ipynb
 ```
+Please make sure to load in the dataset in the first cell. 
 
-Please make sure the test set is in the format of:
-```
-text: "sample text"
-source: "human" or "ai"
-```
-
-This will evaluate our best model on the hidden test set. If you want to first train the model, run the notebook:
+This will evaluate our best model on the hidden test set. If you want to first train the model, and not use "ai_detection_model_final" run the notebook:
 ```
 ai_detection.ipynb
 ```
