@@ -8,6 +8,12 @@ source .venv/bin/activate
 ```
 to activate the virtual environment with all needed packages.
 
+If you don't have the virtual environment in your current directory, please create a new one, and run:
+```
+pip install -r requirements.txt
+```
+to install all needed packages.
+
 ### ai_detection.ipynb
 
 You should be able to run this just by running all cells. Note that you will need the following files: 
